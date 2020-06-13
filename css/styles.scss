@@ -65,9 +65,25 @@ body {
     }
 }
 
+.modal-content {
+    .modal-header {
+        background-color: $background-dark;
+    }
+    .modal-title,
+    .close {
+        color: #fffaf0;
+    }
+    .modal-body {
+        background-color: $background-pale;
+    }
+}
+
 #carouselButton {
-    right: 0px;
+    right: 15px;
     position: absolute;
     bottom: 0px;
-    z-index: 1;
+}
+
+#loginModalOpen {
+    cursor: pointer;
 }
